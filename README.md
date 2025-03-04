@@ -27,3 +27,28 @@ Para executar este projeto, você precisará dos seguintes itens instalados:
    ```bash
    git clone https://github.com/seu-usuario/nome-do-repositorio.git
    cd nome-do-repositorio
+
+2. **Crie e ative o ambiente virtual**:
+   python -m venv .venv
+   source .venv/bin/activate  # Linux/macOS
+   .venv\Scripts\activate     # Windows
+
+3. **Instale as dependências**:
+   pip install -r requirements.txt
+
+4. **COnfigure os arquivos de entrada**:
+   cpfs.txt e participacao.txt
+
+5. **Execute o script**:
+   python preencher_formulario.py 
+
+## 👤 Autor
+
+Desenvolvido por https://github.com/Patrick-Jabba
+
+## 🛡️ Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
+
+
