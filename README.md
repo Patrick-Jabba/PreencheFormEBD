@@ -2,7 +2,9 @@
 
 Este projeto automatiza o preenchimento de formulários de participação na Escola Bíblica Dominical (EBD). Ele foi desenvolvido usando Python e a biblioteca Selenium para interagir com o navegador Chrome.
 
-## Funcionalidades
+![Demonstração](https://github.com/Patrick-Jabba/PreencheFormEBD/blob/main/demo.gif)
+
+## 🌟 Funcionalidades
 
 - Preenche automaticamente CPFs de participantes.
 - Seleciona opções em campos personalizados (`selectize`).
@@ -10,7 +12,7 @@ Este projeto automatiza o preenchimento de formulários de participação na Esc
 - Marca checkboxes e envia formulários.
 - Processa múltiplos CPFs a partir de um arquivo de texto.
 
-## Requisitos
+## ⚙️ Requisitos
 
 Para executar este projeto, você precisará dos seguintes itens instalados:
 
@@ -21,7 +23,7 @@ Para executar este projeto, você precisará dos seguintes itens instalados:
 3. **Navegador Google Chrome**: [Download Chrome](https://www.google.com/chrome/)
 4. **Git** (opcional, para clonar o repositório): [Download Git](https://git-scm.com/)
 
-## Instalação
+## 🚀 Instalação
 
 1. **Clone o repositório**:
    ```bash
@@ -40,7 +42,18 @@ Para executar este projeto, você precisará dos seguintes itens instalados:
    cpfs.txt e participacao.txt
 
 5. **Execute o script**:
-   python preencher_formulario.py 
+   python preencher_formulario.py
+
+## 📂 Estrutura do Projeto
+
+- `PreencheFormEBD/`
+    - `preencher_formulario.py` # Script principal de automação
+    - `.gitignore`             # Arquivos ignorados pelo Git
+    - `README.md`              # Documentação do projeto
+
+🔍 **Observações Importantes**:
+- **Configuração do Navegador**: O script usa o Google Chrome. Certifique-se de que o navegador está instalado e atualizado.
+- **Limitações**: O script foi projetado especificamente para um site. Se o site for alterado, o código pode precisar de ajustes.
 
 ## 👤 Autor
 
