@@ -62,6 +62,3 @@ Desenvolvido por https://github.com/Patrick-Jabba
 ## 🛡️ Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
-
-
-
